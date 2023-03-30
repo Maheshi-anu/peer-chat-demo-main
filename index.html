@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="videos">
+      <video id="user-1" class="video-player" autoplay playsinline></video>
+      <video id="user-2" class="video-player" autoplay playsinline></video>
+    </div>
+
+    <div id="controls">
+      <div class="control-container" id="camera-btn">
+        <img src="Assets/control-icons/video-camera.png" alt="" />
+      </div>
+
+      <div class="control-container" id="mic-btn">
+        <img src="Assets/control-icons/mic.png" alt="" />
+      </div>
+
+      <div class="control-container" id="invite-btn">
+        <img src="Assets/control-icons/add-friend.png" alt="" />
+      </div>
+
+      <a href="lobby.html">
+        <div class="control-container" id="leave-btn">
+          <img src="Assets/control-icons/phone-call.png" alt="" />
+        </div>
+      </a>
+
+      <div class="control-container" id="screenShare-btn">
+        <img src="Assets/control-icons/screen.png" alt="" />
+      </div>
+    </div>
+  </body>
+  <script src="agora-rtm-sdk-1.5.1.js"></script>
+  <script src="main.js"></script>
+</html>
