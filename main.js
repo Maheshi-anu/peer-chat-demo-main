@@ -1,4 +1,4 @@
-let APP_ID = "eb3373e31f714b0dbf644f9086545af4";
+let APP_ID = "############";
 
 let token = null;
 let uid = Math.floor(Math.random() * 10000).toString(); // change user id from data base
